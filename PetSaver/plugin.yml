@@ -1,0 +1,17 @@
+name: PetSaver
+description: Named pets cannot die!
+author: Raus
+main: com.raus.petSaver.Main
+version: 1.0
+api-version: 1.15
+
+commands:
+  petsaver:
+    description: Pet saver
+    default: true
+    usage: "Usage: /petsaver [info|reload]"
+
+permissions:
+  petsaver.reload:
+    default: op
+    description: Allows you to reload the config
