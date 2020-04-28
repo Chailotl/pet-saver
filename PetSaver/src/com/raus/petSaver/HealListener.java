@@ -25,7 +25,7 @@ public class HealListener implements Listener
 			LivingEntity pet = (LivingEntity)event.getEntity();
 			
 			// Would the pet be healed above requisite amount?
-			if (pet.getHealth() + event.getAmount() > pet.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue() * Main.healInjury())
+			if (pet.getHealth() + event.getAmount() >= pet.getAttribute(Attribute.GENERIC_MAX_HEALTH).getValue() * Main.healInjury())
 			{
 				// Remove "injury"
 				pet.removePotionEffect(PotionEffectType.SLOW);
