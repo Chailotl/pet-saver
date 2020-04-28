@@ -41,6 +41,7 @@ pets:
 
 ## Commands
 **/petsaver info** - Plugin info
+
 **/petsaver reload** - Reload config (OP)
 
 ## Permissions
