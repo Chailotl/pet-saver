@@ -1,0 +1,24 @@
+# Should name tags be required
+requireNameTag: true
+
+# Should pets become injured if their death is prevented
+# Injured pets are given weakness 100 and slowness 5
+giveInjury: true
+
+# At what percentage of health should injuries heal
+healInjury: 0.5
+
+# List of protected entities
+pets:
+ - WOLF
+ - CAT
+ - PARROT
+ - HORSE
+ - DONKEY
+ - MULE
+ - SKELETON_HORSE
+ - FOX
+ - OCELOT
+ - LLAMA
+ - TRADER_LLAMA
+ - IRON_GOLEM
