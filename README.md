@@ -5,7 +5,7 @@
 Death is too harsh and permanent for your precious pooch and kitty, prevent them from dying by giving them a name tag! Instead, when their death is prevented, they become injured (slowness+weakness); these injuries heal when their health goes above 50%. All aspects of this plugin is configurable!
 
 <p align="center">
-  <img src="https://i.imgur.com/UOo7LMm.gif">
+  <img src="https://i.imgur.com/">
 </p>
 
 ## Usage
